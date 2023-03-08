@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		FF7B458D29B84C5A002C4369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B458C29B84C5A002C4369 /* AppDelegate.swift */; };
 		FF7B458F29B84C5A002C4369 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B458E29B84C5A002C4369 /* SceneDelegate.swift */; };
-		FF7B459129B84C5A002C4369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B459029B84C5A002C4369 /* ViewController.swift */; };
-		FF7B459429B84C5A002C4369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7B459229B84C5A002C4369 /* Main.storyboard */; };
+		FF7B459129B84C5A002C4369 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B459029B84C5A002C4369 /* FirstViewController.swift */; };
 		FF7B459629B84C5B002C4369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7B459529B84C5B002C4369 /* Assets.xcassets */; };
 		FF7B459929B84C5B002C4369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7B459729B84C5B002C4369 /* LaunchScreen.storyboard */; };
+		FF7B45A129B84DCB002C4369 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B45A029B84DCB002C4369 /* SecondViewController.swift */; };
+		FF7B45A729B850CD002C4369 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF7B45A229B850CC002C4369 /* 5.mp3 */; };
+		FF7B45A829B850CD002C4369 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF7B45A329B850CD002C4369 /* 3.mp3 */; };
+		FF7B45A929B850CD002C4369 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF7B45A429B850CD002C4369 /* 1.mp3 */; };
+		FF7B45AA29B850CD002C4369 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF7B45A529B850CD002C4369 /* 4.mp3 */; };
+		FF7B45AB29B850CD002C4369 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF7B45A629B850CD002C4369 /* 2.mp3 */; };
+		FF7B45AE29B85E78002C4369 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B45AD29B85E78002C4369 /* Media.swift */; };
+		FFBD5C5D29B898960020CA2A /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD5C5C29B898960020CA2A /* VideoTableViewCell.swift */; };
+		FFBD5C5F29B89DDE0020CA2A /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD5C5E29B89DDE0020CA2A /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF7B458929B84C5A002C4369 /* Multimedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multimedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7B458C29B84C5A002C4369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7B458E29B84C5A002C4369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF7B459029B84C5A002C4369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF7B459329B84C5A002C4369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF7B459029B84C5A002C4369 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		FF7B459529B84C5B002C4369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF7B459829B84C5B002C4369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF7B459A29B84C5B002C4369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7B45A029B84DCB002C4369 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FF7B45A229B850CC002C4369 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		FF7B45A329B850CD002C4369 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		FF7B45A429B850CD002C4369 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		FF7B45A529B850CD002C4369 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		FF7B45A629B850CD002C4369 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		FF7B45AD29B85E78002C4369 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		FFBD5C5C29B898960020CA2A /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		FFBD5C5E29B89DDE0020CA2A /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		FF7B458B29B84C5A002C4369 /* Multimedia */ = {
 			isa = PBXGroup;
 			children = (
+				FF7B45AC29B8514A002C4369 /* Music */,
 				FF7B458C29B84C5A002C4369 /* AppDelegate.swift */,
 				FF7B458E29B84C5A002C4369 /* SceneDelegate.swift */,
-				FF7B459029B84C5A002C4369 /* ViewController.swift */,
-				FF7B459229B84C5A002C4369 /* Main.storyboard */,
+				FF7B459029B84C5A002C4369 /* FirstViewController.swift */,
+				FF7B45A029B84DCB002C4369 /* SecondViewController.swift */,
+				FFBD5C5E29B89DDE0020CA2A /* VideoViewController.swift */,
+				FFBD5C5C29B898960020CA2A /* VideoTableViewCell.swift */,
+				FF7B45AD29B85E78002C4369 /* Media.swift */,
 				FF7B459529B84C5B002C4369 /* Assets.xcassets */,
 				FF7B459729B84C5B002C4369 /* LaunchScreen.storyboard */,
 				FF7B459A29B84C5B002C4369 /* Info.plist */,
 			);
 			path = Multimedia;
+			sourceTree = "<group>";
+		};
+		FF7B45AC29B8514A002C4369 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B45A429B850CD002C4369 /* 1.mp3 */,
+				FF7B45A629B850CD002C4369 /* 2.mp3 */,
+				FF7B45A329B850CD002C4369 /* 3.mp3 */,
+				FF7B45A529B850CD002C4369 /* 4.mp3 */,
+				FF7B45A229B850CC002C4369 /* 5.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +157,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7B45A729B850CD002C4369 /* 5.mp3 in Resources */,
 				FF7B459929B84C5B002C4369 /* LaunchScreen.storyboard in Resources */,
+				FF7B45A829B850CD002C4369 /* 3.mp3 in Resources */,
+				FF7B45AA29B850CD002C4369 /* 4.mp3 in Resources */,
+				FF7B45AB29B850CD002C4369 /* 2.mp3 in Resources */,
 				FF7B459629B84C5B002C4369 /* Assets.xcassets in Resources */,
-				FF7B459429B84C5A002C4369 /* Main.storyboard in Resources */,
+				FF7B45A929B850CD002C4369 /* 1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +174,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7B459129B84C5A002C4369 /* ViewController.swift in Sources */,
+				FF7B45A129B84DCB002C4369 /* SecondViewController.swift in Sources */,
+				FFBD5C5F29B89DDE0020CA2A /* VideoViewController.swift in Sources */,
+				FF7B459129B84C5A002C4369 /* FirstViewController.swift in Sources */,
 				FF7B458D29B84C5A002C4369 /* AppDelegate.swift in Sources */,
 				FF7B458F29B84C5A002C4369 /* SceneDelegate.swift in Sources */,
+				FF7B45AE29B85E78002C4369 /* Media.swift in Sources */,
+				FFBD5C5D29B898960020CA2A /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF7B459229B84C5A002C4369 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF7B459329B84C5A002C4369 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF7B459729B84C5B002C4369 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,11 +319,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Multimedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,11 +346,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Multimedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

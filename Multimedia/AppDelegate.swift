@@ -10,8 +10,6 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
@@ -34,3 +32,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+class TabBarController: UITabBarController {
+    
+    var firstTabNavigationController: UINavigationController!
+    var secondTabNavigationController: UINavigationController!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+    }
+    private func setupUI() {
+        
+        firstTabNavigationController = UINavigationController.init(rootViewController: FirstViewController())
+        secondTabNavigationController = UINavigationController.init(rootViewController: SecondViewController())
+
+        
+        self.viewControllers = [firstTabNavigationController, secondTabNavigationController]
+        
+        let item1 = UITabBarItem(title: "Audio",
+                                 image: UIImage(systemName: "beats.headphones"), tag: 0)
+        let item2 = UITabBarItem(title: "Video",
+                                 image: UIImage(systemName: "video.circle.fill"), tag: 1)
+        
+        firstTabNavigationController.tabBarItem = item1
+        secondTabNavigationController.tabBarItem = item2
+        
+        UITabBar.appearance().tintColor = UIColor(red: 0/255.0, green: 146/255.0, blue: 248/255.0, alpha: 1.0)
+        UITabBar.appearance().backgroundColor = .systemGray6
+        
+        secondTabNavigationController.isNavigationBarHidden = true
+    }
+}
